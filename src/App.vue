@@ -7,5 +7,6 @@
     <v-main class="w-full h-full">
         Main Content
     </v-main>
+
   </v-layout>
 </template>
