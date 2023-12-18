@@ -1,31 +1,31 @@
 <script setup>
 // import company from "./assets/company.png";
 import about from "./assets/about.svg";
-// import CEO from "./assets/ceo.jpg";
-import CEO from "./assets/ceo2.jpg";
+import CEO from "./assets/ceo.jpg";
+// import CEO from "./assets/ceo2.jpg";
 </script>
 
 <template>
     <v-app>
-        <v-app-bar class="px-16" color="#FFF" flat>
+        <v-app-bar class="px-16" color="indigo-lighten-1" flat>
             <v-app-bar-title>OMLYY</v-app-bar-title>
             <v-spacer></v-spacer>
-            <v-list class="flex justify-between items-center gap-2 pr-2">
+            <v-list class="flex bg-[#5C6BC0] text-white justify-between items-center gap-2 pr-2">
                 <v-list-item href="/">
                     <v-list-item-content>
-                        <v-list-item-title>Home</v-list-item-title>
+                        <v-list-item-title class="font-semibold">Home</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
 
                 <v-list-item href="/teste">
                     <v-list-item-content>
-                        <v-list-item-title>Sobre</v-list-item-title>
+                        <v-list-item-title class="font-semibold">Sobre</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
 
                 <v-list-item href="/teste">
                     <v-list-item-content>
-                        <v-list-item-title>Contato</v-list-item-title>
+                        <v-list-item-title class="font-semibold">Contato</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
@@ -46,7 +46,7 @@ import CEO from "./assets/ceo2.jpg";
                             <v-btn width="50%" color="indigo-lighten-1"> Fale conosco </v-btn>
                         </div>
                         <div>
-                            <img :src="CEO" class="w-full shadow-2xl" alt="Imagem da company" />
+                            <img :src="CEO" class="w-full shadow-2xl rounded-full" alt="Imagem da company" />
                         </div>
                     </div>
                 </section>
