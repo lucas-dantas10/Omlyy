@@ -137,9 +137,20 @@ import CEO from "./assets/ceo.jpg";
             </v-container>
         </v-main>
 
-        <v-footer>
+        <v-footer color="indigo-darken-1">
             <v-container>
-                <h1>FOOTER CONTENT</h1>
+                <div class="w-full h-full flex justify-between items-center">
+                    <div class="flex flex-col gap-4">
+                        <h1>OMLYY</h1>
+                        <p>Todos os direitos reservados</p>
+                        <span>© 2023</span>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <p>OMLYY Serviços Especializados</p>
+                        <p>CNPJ: **.***.***/****-**</p>
+                        <p>Rua Indaia 108 apt 132, São Paulo, Vila Prudente, Brasil, 03132-125</p>
+                    </div>
+                </div>
             </v-container>
         </v-footer>
     </v-app>
